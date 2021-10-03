@@ -6,42 +6,42 @@ public class Money {
     int n;
     n=keyboard.nextInt();
     if (n=6){
-        Math.pow(n)=Million;
+        Math.pow(10, n)=Million;
         System.out.println("Its a Million");
     }
     else if (n=9)
     {
-        Math.pow(n) = Billion;
+        Math.pow(10, n) = Billion;
         System.out.println("Its a Billion");
     }
     else if (n=12)
     {
-        Math.pow(n) = Trillion;
+        Math.pow(10, n) = Trillion;
         System.out.println("Its a Trillion");
     }
     else if (n=15)
     {
-        Math.pow(n) = Quadrillion;
+        Math.pow(10, n) = Quadrillion;
         System.out.println("Its a Quadrillin");
     }
     else if (n=18)
     {
-        Math.pow(n) = Quintillion;
+        Math.pow(10, n) = Quintillion;
         System.out.println("Its a Quintillion");
     }
     else if (n=21)
     {
-        Math.pow(n) = Sextillion;
+        Math.pow(10,n,) = Sextillion;
         System.out.println("Its a Sextillion");
     }
     else if (n=30)
     {
-        Math.pow(n) = Nonillion;
+        Math.pow(10, n) = Nonillion;
         System.out.println("Its a Nonillion");
     }
     else if (n=100)
     {
-        Math.pow(n) = Googol;
+        Math.pow(10, n) = Googol;
         System.out.println("Its a Googol");
     }
     else
