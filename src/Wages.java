@@ -20,13 +20,13 @@ public class Wages {
 
         else if {
         (100 < sales < 299.99) {
-            commision = 10 %*sales;
+            commision = 10%*sales;
             Wages = 7.25 * hours + 1.5 * overTime + commision;
             System.out.println("Wages " + Wages);
         }
         else if {
             (sales >= 300) {
-                commision = 15 %*sales;
+                commision = 15%*sales;
                 Wages = 7.25 * hours + 1.5 * overTime + commision;
                 System.out.println("Wages " + Wages);
             } else {
